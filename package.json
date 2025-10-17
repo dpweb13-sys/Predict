@@ -1,2 +1,16 @@
-{ "name": "r4bbit-wingo-bot", "version": "1.0.0", "description": "Telegram bot for WINGO prediction with admin approval and PostgreSQL storage", "main": "index.js", "scripts": { "start": "node index.js" }, "dependencies": { "dotenv": "^16.3.1", "pg": "^8.11.1", "telegraf": "^4.15.2" }, "engines": { "node": "22.x" }, "author": "Rabbit", "license": "ISC" }
-
+{
+  "name": "r4bbit-mini",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "telegraf": "^4.14.0",
+    "express": "^4.18.2",
+    "fs": "0.0.1-security"
+  }
+}
